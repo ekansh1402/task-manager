@@ -1,0 +1,158 @@
+2025-02-19 17:07:45:745 error: request:undefined reqId:undefined uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (C:\Users\ekansh.k.in\Documents\Task-Manager\src\utils\logger.js:32:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\ekansh.k.in\Documents\Task-Manager\src\controllers\taskController.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2025-02-19 17:08:53:853 info: request:addtask reqId:409c3f11-5b06-4172-af9f-a1d9111362a0 task created
+2025-02-19 17:09:41:941 info: request:gettask reqId:f294bbed-2cd9-4d21-bfb0-90f9a27e8c51 undefined
+2025-02-20 10:57:33:5733 error: request:POST/addtask reqId:6780e47d-3f51-4597-9130-4aff54d7706d undefined
+2025-02-20 11:09:42:942 info: request:POST/signin reqId:null user logined
+2025-02-20 11:10:10:1010 info: request:POST/signin reqId:null user logined
+2025-02-20 11:10:22:1022 info: request:POST/signin reqId:null user logined
+2025-02-20 11:10:50:1050 info: request:POST/signin reqId:null user logined
+2025-02-20 11:10:55:1055 info: request:POST/signin reqId:null user logined
+2025-02-20 11:12:12:1212 info: request:POST/signin reqId:null user logined
+2025-02-20 11:12:33:1233 info: request:POST/signin reqId:null user logined
+2025-02-20 11:12:42:1242 error: request:POST/signin reqId:null undefined
+2025-02-20 11:14:18:1418 error: request:POST/signin reqId:null undefined
+2025-02-20 11:15:01:151 error: request:POST/signin reqId:null wrong Credentials
+2025-02-20 11:17:06:176 error: request:POST/signin reqId:null wrong Credentials
+2025-02-20 11:17:11:1711 info: request:POST/signin reqId:null user logined
+2025-02-20 11:17:16:1716 error: request:POST/addtask reqId:17500907-204c-49da-8e07-2044a2abc85c task already present
+2025-02-20 11:17:30:1730 info: request:GET/gettask reqId:38a0f5ea-aa2a-4c9b-bb87-5a37ded72779 undefined
+2025-02-20 11:19:12:1912 info: request:GET/gettask reqId:2b1450ea-242c-4ff0-87ba-016b213b83c7 entries fetched successfully
+2025-02-20 11:19:21:1921 info: request:GET/gettask reqId:5e9fb131-9f39-477b-b8d4-995486a5fb32 entries fetched successfully
+2025-02-20 11:19:51:1951 info: request:GET/gettask reqId:3f369ba5-c592-439b-9440-11a567653876 entries fetched successfully
+2025-02-20 11:24:28:2428 info: request:GET/gettask reqId:6d74e592-3295-4f20-b0f8-afbab00a4b55 entries fetched successfully
+2025-02-20 11:24:38:2438 info: request:GET/gettask reqId:52f5755f-9217-4f12-aa53-96813c547830 entries fetched successfully
+2025-02-20 11:28:09:289 info: request:GET/gettask reqId:bd8276ae-d036-4586-ae9e-9b53be238b25 entries fetched successfully
+2025-02-20 11:33:56:3356 error: request:POST/updatetask reqId:d8eddb10-4a4d-4556-81b8-2898359f7ecf task already up-to-date
+2025-02-20 11:34:03:343 info: request:GET/gettask reqId:fb15a8a2-2944-4bb4-a821-018a36daf7cf entries fetched successfully
+2025-02-20 11:56:07:567 info: request:GET/gettask reqId:fc5d077e-6d0c-41a6-92ee-759f751293f3 entries fetched successfully
+2025-02-20 11:56:46:5646 error: request:undefined reqId:undefined uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\ekansh.k.in\Documents\Task-Manager\server.js:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+2025-02-20 12:02:47:247 error: request:undefined reqId:undefined uncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at Object.write (C:\Users\ekansh.k.in\Documents\Task-Manager\src\middleware\morgan.js:24:13)
+    at Array.logRequest (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\morgan\index.js:130:14)
+    at listener (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\morgan\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\morgan\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\ee-first\index.js:55:10)
+    at ServerResponse.onevent (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\ee-first\index.js:93:5)
+    at ServerResponse.emit (events.js:326:22)
+    at onFinish (_http_outgoing.js:735:10)
+    at onCorkedFinish (_stream_writable.js:673:5)
+    at afterWrite (_stream_writable.js:490:5)
+2025-02-20 12:03:42:342 http: request:undefined reqId:undefined 366e593b-14c1-43cd-b777-fa17d8bcac38 GET /api/v1/task/gettask 200 856 - 10.652 ms
+
+2025-02-20 12:04:39:439 error: request:POST/addtask reqId:85ad1d58-9ed4-43d2-8294-573bb3a2633f task already present
+2025-02-20 12:04:39:439 http: request:undefined reqId:undefined 85ad1d58-9ed4-43d2-8294-573bb3a2633f POST /api/v1/task/addtask 400 83 - 80.545 ms
+
+2025-02-20 12:06:17:617 error: request:POST/addtask reqId:77f7e212-80a7-4c2b-b9ce-93c750d677c6 task already present
+2025-02-20 12:06:17:617 error: request:undefined reqId:undefined uncaughtException: tokens.req_id is not a function
+TypeError: tokens.req_id is not a function
+    at C:\Users\ekansh.k.in\Documents\Task-Manager\src\middleware\morgan.js:12:14
+    at Array.logRequest (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\morgan\index.js:122:18)
+    at listener (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\morgan\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\morgan\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\ee-first\index.js:55:10)
+    at ServerResponse.onevent (C:\Users\ekansh.k.in\Documents\Task-Manager\node_modules\ee-first\index.js:93:5)
+    at ServerResponse.emit (events.js:326:22)
+    at onFinish (_http_outgoing.js:735:10)
+    at onCorkedFinish (_stream_writable.js:673:5)
+    at afterWrite (_stream_writable.js:490:5)
+2025-02-20 12:06:51:651 error: request:POST/addtask reqId:16ae6ab0-618d-4c60-b01b-73c29f6bde3c task already present
+2025-02-20 12:06:51:651 http: request:undefined reqId:undefined 16ae6ab0-618d-4c60-b01b-73c29f6bde3c POST /api/v1/task/addtask 400 83 - 105.877 ms
+
+undefined
+undefined
+undefined
+undefined
+2025-02-20 12:11:48:1148 error: request:POST/addtask reqId:eb65b5b3-eecd-4f62-a4c7-462293a3feed task already present
+2025-02-20 12:11:48:1148 http: request: reqId: eb65b5b3-eecd-4f62-a4c7-462293a3feed POST /api/v1/task/addtask 400 83 - 95.090 ms
+
+2025-02-20 12:31:44:3144 http:  reqId: e81041a9-5a02-434b-b525-07ba3f0a4e01 POST /api/v1/task/addtask   -  ms
+
+2025-02-20 12:32:04:324 error: POST/addtask reqId:dd5b6d8c-2388-4a60-95e1-39369893798f Failed to connect to the database
+2025-02-20 12:32:04:324 http:  reqId: dd5b6d8c-2388-4a60-95e1-39369893798f POST /api/v1/task/addtask 502 96 - 99.844 ms
+
+2025-02-20 12:32:26:3226 error: POST/addtask reqId:234784a1-9fbc-4f47-8be2-6919ecee2201 Failed to connect to the database
+2025-02-20 12:32:26:3226 http:  reqId: 234784a1-9fbc-4f47-8be2-6919ecee2201 POST /api/v1/task/addtask 502 96 - 95.566 ms
+
+2025-02-20 12:48:21:4821 error: POST/addtask reqId:d10ac349-9013-4ecb-82b9-075d4175e4d6 task already present
+2025-02-20 12:48:21:4821 http:  reqId: d10ac349-9013-4ecb-82b9-075d4175e4d6 POST /api/v1/task/addtask 400 83 - 105.034 ms
+
+2025-02-20 12:52:11:5211 error: POST/addtask reqId:15f9fca5-81d5-4654-bd41-05343bc48b83 task already present
+2025-02-20 12:52:11:5211 http:  reqId: 15f9fca5-81d5-4654-bd41-05343bc48b83 POST /api/v1/task/addtask 400 83 - 116.223 ms
+
+2025-02-20 12:58:38:5838 error: POST/addtask reqId:afdeded6-6a29-4674-97a7-8ead82cda3a4 task already present
+2025-02-20 12:58:38:5838 http:  reqId: afdeded6-6a29-4674-97a7-8ead82cda3a4 POST /api/v1/task/addtask 400 83 - 99.195 ms
+
+2025-02-20 13:01:19:119 info: POST/signin reqId: user logined
+2025-02-20 13:01:19:119 http:  reqId: 0ea6682d-9b44-496b-bcf3-e15f305d1b58 POST /api/v1/auth/signin 200 204 - 290.342 ms
+
+2025-02-20 15:42:53:4253 info: POST/signin reqId: user logined
+2025-02-20 15:42:53:4253 http:  reqId: 17483cb7-28ec-4fa6-b947-107f0d137c25 POST /api/v1/auth/signin 200 204 - 209.930 ms
+
+2025-02-20 15:43:05:435 error: POST/addtask reqId:f3e413a1-4c93-47ac-b42b-c5e59f1640f2 task already present
+2025-02-20 15:43:05:435 http:  reqId: f3e413a1-4c93-47ac-b42b-c5e59f1640f2 POST /api/v1/task/addtask 400 83 - 3.755 ms
+
+2025-02-20 16:15:21:1521 info:  reqId: DB connection successful
+2025-02-20 16:15:33:1533 info:  reqId: DB connection successful
+2025-02-20 16:16:49:1649 info:  reqId: DB connection successful
+2025-02-20 16:17:04:174 info:  reqId: DB connection successful
+2025-02-20 16:17:13:1713 info:  reqId: DB connection successful
+2025-02-20 16:17:51:1751 info:  reqId: DB connection successful
+2025-02-20 16:20:55:2055 info:  reqId: DB connection successful
+2025-02-20 16:25:21:2521 info:  reqId: DB connection successful
+2025-02-20 16:29:53:2953 info:  reqId: DB connection successful
+2025-02-20 16:35:17:3517 info:  reqId: DB connection successful
+2025-02-20 16:35:47:3547 error: POST/signup reqId:2bea7520-54be-4ee3-a07b-52b2085df0c6 user already exist
+2025-02-20 16:35:47:3547 http:  reqId: 2bea7520-54be-4ee3-a07b-52b2085df0c6 POST /api/v1/auth/signup 400 81 - 114.324 ms
+
+2025-02-20 16:36:20:3620 info:  reqId: DB connection successful
+2025-02-20 16:36:24:3624 info: POST/signin reqId: user logined
+2025-02-20 16:36:24:3624 http:  reqId: 00a31589-abf4-4c60-92cd-8476451a69b0 POST /api/v1/auth/signin 200 204 - 219.672 ms
+
+2025-02-20 16:36:30:3630 error: POST/addtask reqId:075eabb5-a2fb-4137-b97c-9a975754b0c0 task already present
+2025-02-20 16:36:30:3630 http:  reqId: 075eabb5-a2fb-4137-b97c-9a975754b0c0 POST /api/v1/task/addtask 400 83 - 13.344 ms
+
+2025-02-20 16:36:34:3634 info: GET/gettask reqId:d450eeb3-c821-4856-be16-b6c894995f20 entries fetched successfully
+2025-02-20 16:36:34:3634 http:  reqId: d450eeb3-c821-4856-be16-b6c894995f20 GET /api/v1/task/gettask 200 887 - 13.966 ms
+
+2025-02-20 16:36:42:3642 error: POST/updatetask reqId:6c1ea38f-3867-46f5-9868-f67a6f0ba5bc task already up-to-date
+2025-02-20 16:36:42:3642 http:  reqId: 6c1ea38f-3867-46f5-9868-f67a6f0ba5bc POST /api/v1/task/updatetask 400 86 - 12.915 ms
+
+2025-02-20 16:36:49:3649 info: DELETE/deletetask reqId:1322c79f-040b-4fbd-acd4-20fa76f2b3fa task deleted
+2025-02-20 16:36:49:3649 http:  reqId: 1322c79f-040b-4fbd-acd4-20fa76f2b3fa DELETE /api/v1/task/deletetask 200 48 - 13.885 ms
+
+2025-02-20 16:36:53:3653 error: DELETE/deletetask reqId:f39ab400-1573-4e5a-b045-549fc7ca5c9b task not found
+2025-02-20 16:36:53:3653 http:  reqId: f39ab400-1573-4e5a-b045-549fc7ca5c9b DELETE /api/v1/task/deletetask 404 77 - 7.034 ms
+
+2025-02-20 16:41:43:4143 error: DELETE/deletetask reqId:9afa6306-a8a9-4605-8f38-04015d902d46 task not found
+2025-02-20 16:41:43:4143 http:  reqId: 9afa6306-a8a9-4605-8f38-04015d902d46 DELETE /api/v1/task/deletetask 404 77 - 4.518 ms
+
+2025-02-20 16:45:19:4519 [32minfo[39m:  reqId: DB connection successful
+2025-02-20 16:45:37:4537 [31merror[39m: POST/signup reqId:7d87ad85-8b7f-44c1-aeda-c0f258aaeb03 user already exist
+2025-02-20 16:45:37:4537 [32mhttp[39m:  reqId: 7d87ad85-8b7f-44c1-aeda-c0f258aaeb03 POST /api/v1/auth/signup 400 81 - 92.501 ms
+
+2025-02-20 16:46:38:4638 info:  reqId: DB connection successful
+2025-02-20 16:46:51:4651 error: POST/signup reqId:0bc3c93f-553b-4f3a-9e6d-2cc7e875b4a9 user already exist
+2025-02-20 16:46:51:4651 http:  reqId: 0bc3c93f-553b-4f3a-9e6d-2cc7e875b4a9 POST /api/v1/auth/signup 400 81 - 82.243 ms
+
+2025-02-20 18:43:55:4355 info:  reqId: DB connection successful
